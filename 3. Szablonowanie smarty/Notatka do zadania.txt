@@ -1,2 +1,0 @@
-W zadaniu skorzystałam z biblioteki Smarty zainstalowanej za pomocą Composera, dlatego w moim kodzie znajduje się komenda require_once _ROOT_PATH.'/vendor/autoload.php';. 
-Composer pobrał najnowszą wersję Smarty i umieścił ją w katalogu vendor. 
