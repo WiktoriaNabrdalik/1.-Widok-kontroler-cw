@@ -2,9 +2,7 @@
 // KONTROLER strony kalkulatora
 require_once dirname(__FILE__).'/../config.php';
 //załaduj Smarty
-require_once _ROOT_PATH.'/vendor/autoload.php';
-
-use Smarty\Smarty;
+require_once _ROOT_PATH.'/lib/smarty/Smarty.class.php';
 
 // pobranie parametrów i przypisanie do tablicy $form
 //pobranie parametrów
