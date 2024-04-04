@@ -1,0 +1,35 @@
+.splash-container {
+	background: rgb(229, 117, 218) url("../img/cloudy.jpeg") no-repeat center top;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+.splash-head {
+	/*border: 0;*/
+	border-color: rgb(33, 0, 34);
+}
+
+.content-wrapper {
+	top: 100%;
+}
+
+.err {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: rgb(136, 231, 255);
+	color: #222;
+}
+
+.inf {
+	padding: 1em 1em 1em 3em;
+	border-radius: 1em;
+	background-color: rgb(194, 141, 182);
+	color: #222;
+}
+
+.res {
+	padding: 1em 1em 1em 1.5em;
+	border-radius: 1em;
+	background-color: rgb(230, 146, 219);
+	color: #222;
+}
