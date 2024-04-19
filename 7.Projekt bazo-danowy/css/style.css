@@ -1,1 +1,62 @@
+.messages{
+	border-radius: 0.2em;
+	padding: 0.5em;
+	font-style: bold;
+}
 
+.error{
+	background-color: rgb(174, 210, 229);
+}
+
+.info{
+	background-color: rgb(233, 193, 223);
+}
+
+.bottom-margin{
+	margin-bottom: 1em;
+}
+
+.top-margin{
+	margin-top: 1em;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(79, 188, 105); 
+}
+
+.button-error {
+    background: rgb(224, 72, 72); 
+}
+
+.button-warning {
+    background: rgb(255, 240, 24); 
+}
+
+.button-secondary {
+    background: rgb(98, 55, 207); 
+}
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}
