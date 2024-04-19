@@ -66,7 +66,7 @@ class CalcCtrl {
 		// nie ma sensu walidować dalej gdy brak parametrów
 		if (! getMessages()->isError()) {
 			
-			// sprawdzenie, czy $x i $y są liczbami całkowitymi
+			// sprawdzenie, czy $kwota, $lata i $oprocentowanie są liczbami całkowitymi
 			if (! is_numeric ( $this->form->kwota )) {
 				getMessages()->addError('Kwota kredytu nie jest liczbą całkowitą');
 			}
