@@ -1,0 +1,2 @@
+W zadaniu Medoo zainstalowałam za pomocą Composera, dlatego w moim kodzie znajduje się komenda  include_once 'vendor/autoload.php';
+Composer pobrał najnowszą wersję Medoo i umieścił ją w katalogu vendor. 
